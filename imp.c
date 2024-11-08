@@ -1,0 +1,2 @@
+Compiler checks if the members of a class are private, public or protected only at compile time and not at runtime. Since our function is being called at runtime, so we can call any type of function, private or public as shown in the following example.
+Since the same function (virtual function) having different definitions in different classes is called depending on the type of object that calls the function, this is also a part of Polymorphism.
